@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="groupTesting">
+    <test name="groupTesting" >
+        <groups>
+            <run>
+                <include name="functionalTest"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.Selenium.testNG.methodGrouping"/>
+        </classes>
+    </test>
+</suite>

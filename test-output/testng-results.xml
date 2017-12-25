@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="sampleSuiteForPackages" duration-ms="79652" started-at="2017-12-25T10:44:26Z" finished-at="2017-12-25T10:45:46Z">
+    <groups>
+      <group name="integrationTest">
+        <method signature="methodGrouping.methodGrouping1()[pri:0, instance:com.Selenium.testNG.methodGrouping@1ae369b7]" name="methodGrouping1" class="com.Selenium.testNG.methodGrouping"/>
+        <method signature="methodGrouping.methodGrouping3()[pri:0, instance:com.Selenium.testNG.methodGrouping@1ae369b7]" name="methodGrouping3" class="com.Selenium.testNG.methodGrouping"/>
+      </group> <!-- integrationTest -->
+      <group name="functionalTest">
+        <method signature="methodGrouping.methodGrouping1()[pri:0, instance:com.Selenium.testNG.methodGrouping@1ae369b7]" name="methodGrouping1" class="com.Selenium.testNG.methodGrouping"/>
+        <method signature="methodGrouping.methodGrouping2()[pri:0, instance:com.Selenium.testNG.methodGrouping@1ae369b7]" name="methodGrouping2" class="com.Selenium.testNG.methodGrouping"/>
+      </group> <!-- functionalTest -->
+    </groups>
+    <test name="packageTest" duration-ms="79652" started-at="2017-12-25T10:44:26Z" finished-at="2017-12-25T10:45:46Z">
+      <class name="com.Selenium.testNG.SampleTest">
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.Selenium.testNG.SampleTest@6fffcba5]" name="beforeClassMethod" is-config="true" duration-ms="1" started-at="2017-12-25T16:14:27Z" finished-at="2017-12-25T16:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method status="PASS" signature="beforeMethodTest()[pri:0, instance:com.Selenium.testNG.SampleTest@6fffcba5]" name="beforeMethodTest" is-config="true" duration-ms="1" started-at="2017-12-25T16:14:27Z" finished-at="2017-12-25T16:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method status="PASS" signature="chromeDriverTest()[pri:0, instance:com.Selenium.testNG.SampleTest@6fffcba5]" name="chromeDriverTest" duration-ms="33986" started-at="2017-12-25T16:14:27Z" finished-at="2017-12-25T16:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeDriverTest -->
+        <test-method status="PASS" signature="afterMethodTest()[pri:0, instance:com.Selenium.testNG.SampleTest@6fffcba5]" name="afterMethodTest" is-config="true" duration-ms="0" started-at="2017-12-25T16:15:01Z" finished-at="2017-12-25T16:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method status="PASS" signature="beforeMethodTest()[pri:0, instance:com.Selenium.testNG.SampleTest@6fffcba5]" name="beforeMethodTest" is-config="true" duration-ms="0" started-at="2017-12-25T16:15:01Z" finished-at="2017-12-25T16:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method status="PASS" signature="firefoxDriverTest()[pri:0, instance:com.Selenium.testNG.SampleTest@6fffcba5]" name="firefoxDriverTest" duration-ms="45127" started-at="2017-12-25T16:15:01Z" finished-at="2017-12-25T16:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefoxDriverTest -->
+        <test-method status="PASS" signature="afterTestClass()[pri:0, instance:com.Selenium.testNG.SampleTest@6fffcba5]" name="afterTestClass" is-config="true" duration-ms="0" started-at="2017-12-25T16:15:46Z" finished-at="2017-12-25T16:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestClass -->
+        <test-method status="PASS" signature="afterMethodTest()[pri:0, instance:com.Selenium.testNG.SampleTest@6fffcba5]" name="afterMethodTest" is-config="true" duration-ms="0" started-at="2017-12-25T16:15:46Z" finished-at="2017-12-25T16:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+      </class> <!-- com.Selenium.testNG.SampleTest -->
+      <class name="com.Selenium.testNG.methodGrouping">
+        <test-method status="PASS" signature="methodGrouping1()[pri:0, instance:com.Selenium.testNG.methodGrouping@1ae369b7]" name="methodGrouping1" duration-ms="0" started-at="2017-12-25T16:14:27Z" finished-at="2017-12-25T16:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodGrouping1 -->
+        <test-method status="PASS" signature="methodGrouping2()[pri:0, instance:com.Selenium.testNG.methodGrouping@1ae369b7]" name="methodGrouping2" duration-ms="0" started-at="2017-12-25T16:14:27Z" finished-at="2017-12-25T16:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodGrouping2 -->
+        <test-method status="PASS" signature="methodGrouping3()[pri:0, instance:com.Selenium.testNG.methodGrouping@1ae369b7]" name="methodGrouping3" duration-ms="0" started-at="2017-12-25T16:14:27Z" finished-at="2017-12-25T16:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodGrouping3 -->
+      </class> <!-- com.Selenium.testNG.methodGrouping -->
+      <class name="com.Selenium.testNG.BasicTestNgTest2">
+        <test-method status="PASS" signature="fifthTest()[pri:0, instance:com.Selenium.testNG.BasicTestNgTest2@3834d63f]" name="fifthTest" duration-ms="1" started-at="2017-12-25T16:14:27Z" finished-at="2017-12-25T16:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method status="PASS" signature="fourthTest()[pri:0, instance:com.Selenium.testNG.BasicTestNgTest2@3834d63f]" name="fourthTest" duration-ms="2" started-at="2017-12-25T16:14:27Z" finished-at="2017-12-25T16:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTest -->
+      </class> <!-- com.Selenium.testNG.BasicTestNgTest2 -->
+      <class name="com.Selenium.testNG.BasicTestNgTest">
+        <test-method status="PASS" signature="beforeSuiteMethod()[pri:0, instance:com.Selenium.testNG.BasicTestNgTest@17d99928]" name="beforeSuiteMethod" is-config="true" duration-ms="275" started-at="2017-12-25T16:14:26Z" finished-at="2017-12-25T16:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteMethod -->
+        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:com.Selenium.testNG.BasicTestNgTest@17d99928]" name="beforeTestMethod" is-config="true" duration-ms="0" started-at="2017-12-25T16:14:26Z" finished-at="2017-12-25T16:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:com.Selenium.testNG.BasicTestNgTest@17d99928]" name="firstTest" duration-ms="0" started-at="2017-12-25T16:14:27Z" finished-at="2017-12-25T16:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:com.Selenium.testNG.BasicTestNgTest@17d99928]" name="secondTest" duration-ms="0" started-at="2017-12-25T16:14:27Z" finished-at="2017-12-25T16:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="thirdTest()[pri:0, instance:com.Selenium.testNG.BasicTestNgTest@17d99928]" name="thirdTest" duration-ms="0" started-at="2017-12-25T16:14:27Z" finished-at="2017-12-25T16:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:com.Selenium.testNG.BasicTestNgTest@17d99928]" name="afterTestMethod" is-config="true" duration-ms="1" started-at="2017-12-25T16:15:46Z" finished-at="2017-12-25T16:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.Selenium.testNG.BasicTestNgTest@17d99928]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-12-25T16:15:49Z" finished-at="2017-12-25T16:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.Selenium.testNG.BasicTestNgTest -->
+    </test> <!-- packageTest -->
+  </suite> <!-- sampleSuiteForPackages -->
+</testng-results>

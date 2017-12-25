@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [sampleSuiteForPackages]">
+  <test name="packageTest(failed)">
+    <classes>
+      <class name="com.Selenium.testNG.SampleTest">
+        <methods>
+          <include name="afterTestClass"/>
+          <include name="afterMethodTest"/>
+          <include name="beforeClassMethod"/>
+          <include name="beforeMethodTest"/>
+          <include name="firefoxDriverTest"/>
+          <include name="chromeDriverTest"/>
+        </methods>
+      </class> <!-- com.Selenium.testNG.SampleTest -->
+    </classes>
+  </test> <!-- packageTest(failed) -->
+</suite> <!-- Failed suite [sampleSuiteForPackages] -->
